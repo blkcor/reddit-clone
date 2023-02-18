@@ -8,12 +8,22 @@ git clone https://github.com/blkcor/reddit-clone.git
 
 2、Install dependencies
 ```bash
-yarn or npm install or pnpm install
+# if you use yarn
+yarn
+# if you use npm
+npm install
+# if you use pnpm
+pnpm install
 ```
 
 3、Run the project
 ```bash
-yarn dev or npm run dev or pnpm run dev
+# if you use yarn
+yarn dev
+# if you use npm
+npm run dev
+# if you use pnpm
+pnpm dev
 ```
 
 

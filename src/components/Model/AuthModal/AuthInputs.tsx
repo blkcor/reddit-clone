@@ -3,6 +3,7 @@ import { Flex } from '@chakra-ui/react';
 import React from 'react';
 import { useRecoilValue } from 'recoil';
 import Login from './Login';
+import SignUp from './SignUp';
 
 type AuthInputsProps = {
 
@@ -20,7 +21,7 @@ const AuthInputs: React.FC<AuthInputsProps> = () => {
       mt={4}
     >
       {modalState.views === 'login' && <Login />}
-      {/* {modalState.views === 'signup' && <SignUp />} */}
+      {modalState.views === 'signup' && <SignUp />}
     </Flex>
   )
 }
